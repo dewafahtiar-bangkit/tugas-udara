@@ -7,15 +7,17 @@
 - [How to Run the Dashboard](#how-to-run-the-dashboard)
 
 ## Data Source
-The dataset used in this project includes air quality measurements from 12 stations, with a focus on PM2.5, PM10, and other environmental factors like temperature, dew point, humidity, and wind speed.
+The dataset used in this project includes air quality measurements from 5 stations (originally the dataset have 12 station, but i only take 5 because the size is too big for 12), with a focus on PM2.5, PM10, and other environmental factors like temperature, dew point, humidity, and wind speed.
 
 ## Libraries Used
-- Streamlit
-- Pandas
-- Matplotlib
-- Seaborn
-- NumPy
-- SciPy
+- streamlit
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- folium
+- geopandas
+
 
 ## Key Insights
 - Monthly trends in PM2.5 and PM10 levels, highlighting seasonal variations.
@@ -45,7 +47,8 @@ To run the Air Quality Analysis Dashboard, follow these steps:
 2. **Install Required Packages**:
    - Install packages using:
      ```bash
-     pip install pandas numpy scipy matplotlib seaborn streamlit
+     pip install streamlit pandanumpy matplotlib seaborn folium geopandas
+
      ```
    - Or install all dependencies using:
      ```bash
