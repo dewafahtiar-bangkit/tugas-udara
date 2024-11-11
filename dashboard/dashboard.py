@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-data = pd.read_csv("main_data.csv") 
+data = pd.read_csv("dashboard/main_data.csv") 
 
 # Convert 'datetime' column to datetime type if not already done
 data['datetime'] = pd.to_datetime(data['datetime'])
